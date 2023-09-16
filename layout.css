@@ -3,7 +3,6 @@
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
-    width: 25%;
   }
   
   /* Style the buttons that are used to open the tab content */
@@ -14,6 +13,9 @@
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
+    font-weight: bold;
+    height: 80px;
+    width: 140px;
     transition: 0.3s;
   }
   
@@ -29,7 +31,6 @@
   
   /* Style the tab content */
   .tabcontent {
-    width: 25%;
     height: 50%;
     display: none;
     padding: 6px 12px;
